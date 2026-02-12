@@ -72,7 +72,14 @@ Source Priority:
   - Tier 2 (Market Intelligence): [e.g., ATD/CIPD publications, Harvard Business Publishing cases, established practitioner books, corporate learning research]
   - Tier 3 (Contextual): [e.g., practitioner blogs, conference presentations, internal pilot data, case studies from similar organizations]
 
-Source Exclusions: [e.g., "No vendor-sponsored 'research' without independent validation," "No sources older than 5 years for digital learning methods," "No unverified training fads"]
+Source Verification Standards (ALWAYS ENFORCE):
+  - Every cited source must be publicly accessible and independently verifiable
+  - Acceptable sources: peer-reviewed education and psychology journals, major news outlets (NYT, WSJ, Bloomberg, Reuters, BBC, etc.), Wikipedia, published books, public interviews and podcasts with named individuals, established professional bodies (ATD, CIPD, SHRM, etc.), government education publications, named-author research from reputable institutions (Harvard, MIT, Stanford, etc.), conference presentations with named speakers
+  - Excluded sources: LinkedIn posts, Medium or Substack articles without cited references, AI-generated content, anonymous blog posts, content farms, SEO-driven listicles, press releases used as primary evidence, social media posts, marketing collateral presented as research, forum comments or Reddit threads used as sole evidence for claims, vendor-sponsored "research" without independent validation
+  - When a finding relies on a single uncorroborated source, flag it explicitly and note the limitation
+  - Prefer a less recent but verifiable source over a more recent but unverifiable one
+
+Additional Source Exclusions: [e.g., "No sources older than 5 years for digital learning methods," "No unverified training fads"]
 Cross-Domain Insights: [Adjacent fields or analogous approaches worth mining, e.g., "Behavioral economics for nudge-based learning design," "UX research for learner experience," "Gamification from game design principles"]
 
 === 6. QUALITY ASSURANCE & REPRODUCIBILITY ===

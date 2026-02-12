@@ -66,7 +66,14 @@ Source Priority:
   - Tier 2 (Market Intelligence): [e.g., vendor whitepapers, reputable engineering blogs (Netflix Tech, Uber Eng, AWS Architecture Blog), conference talks, case studies]
   - Tier 3 (Contextual): [e.g., Stack Overflow consensus, community forums, GitHub discussions, anecdotal reports from practitioners]
 
-Source Exclusions: [e.g., "Exclude sources older than 2 years for rapidly evolving tech," "No marketing materials without technical verification," "No deprecated API documentation"]
+Source Verification Standards (ALWAYS ENFORCE):
+  - Every cited source must be publicly accessible and independently verifiable
+  - Acceptable sources: official documentation, peer-reviewed publications, major news outlets (NYT, WSJ, Bloomberg, Reuters, BBC, etc.), Wikipedia, published books, public interviews and podcasts with named individuals, government and regulatory publications, established analyst firms (Gartner, Forrester, IDC, etc.), named-author engineering blogs from known organizations (Netflix Tech, Uber Eng, AWS Architecture Blog, etc.), conference talks with named speakers, RFC and standards body publications
+  - Excluded sources: LinkedIn posts, Medium or Substack articles without cited references, AI-generated content, anonymous blog posts, content farms, SEO-driven listicles, press releases used as primary evidence, social media posts, marketing collateral presented as research, forum comments or Reddit threads used as sole evidence for claims
+  - When a finding relies on a single uncorroborated source, flag it explicitly and note the limitation
+  - Prefer a less recent but verifiable source over a more recent but unverifiable one
+
+Additional Source Exclusions: [e.g., "Exclude sources older than 2 years for rapidly evolving tech," "No deprecated API documentation"]
 Cross-Domain Insights: [Adjacent fields or analogous technical problems worth mining, e.g., "Look at how fintech solves similar latency problems," "How do gaming companies handle this scale?"]
 
 === 6. QUALITY ASSURANCE & REPRODUCIBILITY ===

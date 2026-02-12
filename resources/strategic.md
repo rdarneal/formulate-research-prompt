@@ -159,7 +159,14 @@ Source Priority:
   - Tier 2 (Market Intelligence): [e.g., sell-side analyst reports, reputable business press (WSJ, FT, Bloomberg), industry reports, healthcare market research]
   - Tier 3 (Contextual): [e.g., conference commentary, expert interviews, podcasts, reputable financial media]
 
-Source Exclusions: [e.g., "No sources older than 18 months for market data," "No promotional materials," "No unverified market share claims"]
+Source Verification Standards (ALWAYS ENFORCE):
+  - Every cited source must be publicly accessible and independently verifiable
+  - Acceptable sources: SEC filings, earnings transcripts, major news outlets (WSJ, FT, Bloomberg, Reuters, BBC, etc.), Wikipedia, published books, public interviews and podcasts with named individuals, government and regulatory publications, established analyst firms (Gartner, Forrester, McKinsey, BCG, Bain, etc.), peer-reviewed journals, named-author reports from reputable institutions, conference presentations with named speakers
+  - Excluded sources: LinkedIn posts, Medium or Substack articles without cited references, AI-generated content, anonymous blog posts, content farms, SEO-driven listicles, press releases used as primary evidence, social media posts, marketing collateral presented as research, forum comments or Reddit threads used as sole evidence for claims, unattributed "industry expert" quotes
+  - When a finding relies on a single uncorroborated source, flag it explicitly and note the limitation
+  - Prefer a less recent but verifiable source over a more recent but unverifiable one
+
+Additional Source Exclusions: [e.g., "No sources older than 18 months for market data," "No unverified market share claims"]
 Cross-Industry Insights: [Adjacent industries or analogous situations worth studying, e.g., "How did other interventional device categories handle competitive displacement?"]
 
 === 6. QUALITY ASSURANCE & STRATEGIC VALIDATION ===

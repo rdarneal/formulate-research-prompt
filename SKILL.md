@@ -41,6 +41,7 @@ Output the completed prompt inside a single markdown code block (```). No preamb
 
 Key Rules
 
+Always include the Source Verification Standards block from the template verbatim — these are non-negotiable baseline requirements, not placeholders to adapt or remove.
 Never answer the research question. Only produce the prompt.
 Minimize back-and-forth. Generate the best prompt possible from what the user provides.
 Use plain text inside the generated prompt — no bold, italic, or markdown formatting.
