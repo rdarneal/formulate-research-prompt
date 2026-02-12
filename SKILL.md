@@ -1,5 +1,5 @@
 ---
-name: Create Research Prompt
+name: create-research-prompt
 description: Generate a structured, domain-specific deep research prompt from a user's request.
 ---
 

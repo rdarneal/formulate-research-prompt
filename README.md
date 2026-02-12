@@ -34,10 +34,10 @@ Download `create-research-prompt.zip` from this repo's root.
 Expected SHA-256:
 
 ```
-49872403cb104c4783dd081a6a7a44da4e4bb76272a08b29c25fb02867c9b3b3
+d1bc378ef14a001b569ee008349abb0cfa7c01f67d92d8b90b50e9a4fc5f9c63
 ```
 
-Unzip the archive and follow the platform-specific steps below.
+For Claude Desktop, drop the zip directly into the skill importer. For Claude Code, unzip the archive and follow the steps below.
 
 ### Option B: Clone the repo
 
@@ -50,18 +50,13 @@ cd formulate-research-prompt
 
 ### Claude Desktop / claude.ai
 
-Installation is the same on Mac, Windows, and Linux — everything is done through the web UI.
+Installation is the same on Mac, Windows, and Linux — everything is done through the app settings.
 
-1. Go to [claude.ai/settings](https://claude.ai/settings)
-2. Navigate to **Skills** in the left sidebar
-3. Click **Add Skill**
-4. Set the skill name to `create-research-prompt`
-5. Paste the full contents of `SKILL.md` into the skill definition
-6. Under **References**, add the three resource files:
-   - `resources/technical.md`
-   - `resources/strategic.md`
-   - `resources/learning.md`
-7. Save the skill
+1. Open Claude Desktop and go to **Settings**
+2. Navigate to **Capabilities** > **Skills**
+3. Click the **+** button to add a new skill
+4. Drop in the `create-research-prompt.zip` file
+5. The skill and its resource files will be imported automatically
 
 ### Claude Code (CLI)
 
