@@ -39,7 +39,7 @@ Download `create-research-prompt.zip` from this repo's root.
 Expected SHA-256:
 
 ```
-d1bc378ef14a001b569ee008349abb0cfa7c01f67d92d8b90b50e9a4fc5f9c63
+9e23b763d55f3890fb8d5fcb4e3049e3da57fce5965fde59fb30a46d58379bd3
 ```
 
 For Claude Desktop, drop the zip directly into the skill importer. For Claude Code, unzip the archive and follow the steps below.
