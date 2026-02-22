@@ -1,5 +1,10 @@
 # Create Research Prompt
 
+[![GitHub release](https://img.shields.io/github/v/release/rdarneal/formulate-research-prompt)](https://github.com/rdarneal/formulate-research-prompt/releases)
+[![License: MIT](https://img.shields.io/github/license/rdarneal/formulate-research-prompt)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/rdarneal/formulate-research-prompt)](https://github.com/rdarneal/formulate-research-prompt/issues)
+[![GitHub stars](https://img.shields.io/github/stars/rdarneal/formulate-research-prompt)](https://github.com/rdarneal/formulate-research-prompt/stargazers)
+
 A Claude Skill that generates structured, domain-specific research prompts ready to paste into Perplexity Deep Research (or any AI research tool). It classifies your request, selects the right template, and outputs a comprehensive prompt — it never answers the research question itself.
 
 Three domains are supported:
